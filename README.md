@@ -2,7 +2,7 @@
 
 # TimeTravel with callbacks
 
-## Interfaces
+## Protocols
 
 ### Location
 
