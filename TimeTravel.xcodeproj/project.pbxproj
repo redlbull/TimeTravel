@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,16 @@
 		05259BF3242CFA0400E11B4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05259BF1242CFA0400E11B4F /* LaunchScreen.storyboard */; };
 		05259BFE242CFA0400E11B4F /* TimeTravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05259BFD242CFA0400E11B4F /* TimeTravelTests.swift */; };
 		05259C09242CFA0400E11B4F /* TimeTravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05259C08242CFA0400E11B4F /* TimeTravelUITests.swift */; };
+		05259C17242CFBA700E11B4F /* UserProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05259C16242CFBA700E11B4F /* UserProtocol.swift */; };
+		05259C19242CFC3000E11B4F /* LocationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05259C18242CFC3000E11B4F /* LocationProtocol.swift */; };
+		05259C1B242CFDDE00E11B4F /* MapProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05259C1A242CFDDE00E11B4F /* MapProtocol.swift */; };
+		05259C1D242CFE8500E11B4F /* RestFulGetAPIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05259C1C242CFE8500E11B4F /* RestFulGetAPIProtocol.swift */; };
+		05259C21242D0C5A00E11B4F /* SimpleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05259C20242D0C5A00E11B4F /* SimpleLocation.swift */; };
+		05259C23242D0F0100E11B4F /* IphoneUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05259C22242D0F0100E11B4F /* IphoneUser.swift */; };
+		05259C25242D147600E11B4F /* GoogleMapAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05259C24242D147600E11B4F /* GoogleMapAPI.swift */; };
+		05259C27242D15FB00E11B4F /* MapGoogle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05259C26242D15FB00E11B4F /* MapGoogle.swift */; };
+		0592E2D42430C862007A08B3 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0592E2D32430C862007A08B3 /* Utils.swift */; };
+		4B869B3729ADCF4F69AD6D41 /* Pods_TimeTravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B3A65FA198B67422EF3639 /* Pods_TimeTravel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,18 @@
 		05259C04242CFA0400E11B4F /* TimeTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05259C08242CFA0400E11B4F /* TimeTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTravelUITests.swift; sourceTree = "<group>"; };
 		05259C0A242CFA0400E11B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05259C16242CFBA700E11B4F /* UserProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProtocol.swift; sourceTree = "<group>"; };
+		05259C18242CFC3000E11B4F /* LocationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProtocol.swift; sourceTree = "<group>"; };
+		05259C1A242CFDDE00E11B4F /* MapProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapProtocol.swift; sourceTree = "<group>"; };
+		05259C1C242CFE8500E11B4F /* RestFulGetAPIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestFulGetAPIProtocol.swift; sourceTree = "<group>"; };
+		05259C20242D0C5A00E11B4F /* SimpleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleLocation.swift; sourceTree = "<group>"; };
+		05259C22242D0F0100E11B4F /* IphoneUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IphoneUser.swift; sourceTree = "<group>"; };
+		05259C24242D147600E11B4F /* GoogleMapAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapAPI.swift; sourceTree = "<group>"; };
+		05259C26242D15FB00E11B4F /* MapGoogle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapGoogle.swift; sourceTree = "<group>"; };
+		0592E2D32430C862007A08B3 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		22B3A65FA198B67422EF3639 /* Pods_TimeTravel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeTravel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F0B45078C24AA2484FCCFE /* Pods-TimeTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeTravel.debug.xcconfig"; path = "Target Support Files/Pods-TimeTravel/Pods-TimeTravel.debug.xcconfig"; sourceTree = "<group>"; };
+		84A22E8918CA9691098B2D9E /* Pods-TimeTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeTravel.release.xcconfig"; path = "Target Support Files/Pods-TimeTravel/Pods-TimeTravel.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B869B3729ADCF4F69AD6D41 /* Pods_TimeTravel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +106,8 @@
 				05259BFC242CFA0400E11B4F /* TimeTravelTests */,
 				05259C07242CFA0400E11B4F /* TimeTravelUITests */,
 				05259BE4242CFA0200E11B4F /* Products */,
+				59286F3AE750440CA21A9796 /* Pods */,
+				AD4638672C428DF16744917D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +131,15 @@
 				05259BEF242CFA0400E11B4F /* Assets.xcassets */,
 				05259BF1242CFA0400E11B4F /* LaunchScreen.storyboard */,
 				05259BF4242CFA0400E11B4F /* Info.plist */,
+				05259C16242CFBA700E11B4F /* UserProtocol.swift */,
+				05259C18242CFC3000E11B4F /* LocationProtocol.swift */,
+				05259C1A242CFDDE00E11B4F /* MapProtocol.swift */,
+				05259C1C242CFE8500E11B4F /* RestFulGetAPIProtocol.swift */,
+				05259C20242D0C5A00E11B4F /* SimpleLocation.swift */,
+				05259C22242D0F0100E11B4F /* IphoneUser.swift */,
+				05259C24242D147600E11B4F /* GoogleMapAPI.swift */,
+				05259C26242D15FB00E11B4F /* MapGoogle.swift */,
+				0592E2D32430C862007A08B3 /* Utils.swift */,
 			);
 			path = TimeTravel;
 			sourceTree = "<group>";
@@ -128,6 +162,23 @@
 			path = TimeTravelUITests;
 			sourceTree = "<group>";
 		};
+		59286F3AE750440CA21A9796 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40F0B45078C24AA2484FCCFE /* Pods-TimeTravel.debug.xcconfig */,
+				84A22E8918CA9691098B2D9E /* Pods-TimeTravel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AD4638672C428DF16744917D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22B3A65FA198B67422EF3639 /* Pods_TimeTravel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05259C0D242CFA0400E11B4F /* Build configuration list for PBXNativeTarget "TimeTravel" */;
 			buildPhases = (
+				31336ED2EBF61CF2183D7519 /* [CP] Check Pods Manifest.lock */,
 				05259BDF242CFA0200E11B4F /* Sources */,
 				05259BE0242CFA0200E11B4F /* Frameworks */,
 				05259BE1242CFA0200E11B4F /* Resources */,
+				9AA9E7D3194BEEDF88BEFF09 /* [CP] Embed Pods Frameworks */,
+				DBD864F16A250AC37F669BF1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,14 +308,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31336ED2EBF61CF2183D7519 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TimeTravel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AA9E7D3194BEEDF88BEFF09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TimeTravel/Pods-TimeTravel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TimeTravel/Pods-TimeTravel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TimeTravel/Pods-TimeTravel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBD864F16A250AC37F669BF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TimeTravel/Pods-TimeTravel-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TimeTravel/Pods-TimeTravel-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TimeTravel/Pods-TimeTravel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		05259BDF242CFA0200E11B4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05259C19242CFC3000E11B4F /* LocationProtocol.swift in Sources */,
 				05259BEB242CFA0200E11B4F /* ViewController.swift in Sources */,
+				05259C27242D15FB00E11B4F /* MapGoogle.swift in Sources */,
+				05259C21242D0C5A00E11B4F /* SimpleLocation.swift in Sources */,
 				05259BE7242CFA0200E11B4F /* AppDelegate.swift in Sources */,
+				05259C25242D147600E11B4F /* GoogleMapAPI.swift in Sources */,
+				05259C17242CFBA700E11B4F /* UserProtocol.swift in Sources */,
+				05259C1B242CFDDE00E11B4F /* MapProtocol.swift in Sources */,
+				05259C23242D0F0100E11B4F /* IphoneUser.swift in Sources */,
+				05259C1D242CFE8500E11B4F /* RestFulGetAPIProtocol.swift in Sources */,
 				05259BE9242CFA0200E11B4F /* SceneDelegate.swift in Sources */,
+				0592E2D42430C862007A08B3 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +554,7 @@
 		};
 		05259C0E242CFA0400E11B4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40F0B45078C24AA2484FCCFE /* Pods-TimeTravel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +573,7 @@
 		};
 		05259C0F242CFA0400E11B4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84A22E8918CA9691098B2D9E /* Pods-TimeTravel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
