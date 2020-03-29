@@ -1,7 +1,7 @@
 # TimeTravel
 
 ## TODO 
-- add your google api key in the Utils.swift
+- add your google api key in the Utils.swift file
 
 # TimeTravel with callbacks
 
