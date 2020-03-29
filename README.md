@@ -108,10 +108,10 @@ Methods:
 ### pseudo-code of main program
 
 ```
-RestFulGetAPI api = new GoogleMapAPI();
-Map map = new MapAPI(api);
+let api = GoogleMapAPI();
+let map = MapAPI(api);
 
-User user = new IphoneUser(map);
+let user = IphoneUser(map);
 
 // when user has selected location
 user = user.changeDestination(newDestination);
